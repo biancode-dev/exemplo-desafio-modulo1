@@ -16,4 +16,6 @@ async function pegarAnaliseDeCreditoDoArquivo() {
     });
 }
 
+
+
 document.addEventListener('DOMContentLoaded', pegarAnaliseDeCreditoDoArquivo);
