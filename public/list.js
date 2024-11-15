@@ -15,5 +15,5 @@ async function pegarAnaliseDeCreditoDoArquivo() {
         listaItens.appendChild(item);
     });
 }
-// Chama a função ao carregar a página
+// Chama a função ao carregar a páginas
 document.addEventListener('DOMContentLoaded', pegarAnaliseDeCreditoDoArquivo);
