@@ -1,5 +1,5 @@
 async function pegarAnaliseDeCreditoDoArquivo() {
-    // Lógica para pegar a análise de crédito do arquivo
+    // Lógica para pegar a análise de crédito do arquivos
     const analiseDeCredito = await fetch('/analise-de-credito')
         .then((result) => {
             return result.json();
